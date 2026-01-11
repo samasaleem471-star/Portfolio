@@ -1,19 +1,29 @@
 :root{
     --primary:#5E3BEE;
 }
-a .home-purple{
-  color: #5E3BEE;
+
+div .navbar-nav .nav-item .home-purple{
+  color: var(--primary);
 }
+.main-container-hero{
+    width: 100% important!;
+}
+button .btn-border-purple {
+    border-color: var(--primary) ;
+    color: var(--primary);
+}
+
+
+
+
+/* hero section */
 .container{
     background-color: #F5FCFF;
 }
 h1 span{
     color: var(--primary);
 }
-.btn-border-purple {
-    border: var(--primary) ;
-    color: #5E3BEE;
-}
-.btn-whole-primary{
+
+.col-lg-6 .d-grid .btn-whole-primary{
     background-color: var(--primary);
 }
