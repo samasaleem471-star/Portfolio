@@ -1,29 +1,78 @@
-:root{
-    --primary:#5E3BEE;
+:root {
+  --primary: #5e3bee;
+  --secondary:#f5fcff;
 }
+/* navbar start */
 
-div .navbar-nav .nav-item .home-purple{
+div .navbar-nav .nav-item .home-purple {
   color: var(--primary);
 }
-.main-container-hero{
-    width: 100% important!;
-}
+
 button .btn-border-purple {
-    border-color: var(--primary) ;
-    color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+/* navbar end  */
+
+/* hero section start */
+
+.container-hero {
+  background-color: var(--secondary);
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+h1 span {
+  color: var(--primary);
+}
+.col-lg-6 .d-grid .btn-whole-primary {
+  background-color: var(--primary);
 }
 
+/* hero section end  */
 
+/* gallery section start  */
 
-
-/* hero section */
-.container{
-    background-color: #F5FCFF;
+.container {
+  padding: 149.33px 85.33px 149.33px 85.33px;
 }
-h1 span{
-    color: var(--primary);
+.container h2 {
+  padding-bottom: 25px;
+}
+.col .card {
+  background-color: var(--secondary);
+  border: none;
+}
+.container .col {
+  padding-top: 20px;
 }
 
-.col-lg-6 .d-grid .btn-whole-primary{
-    background-color: var(--primary);
+/* gallery section end  */
+
+/* hero section 2 */
+
+.container-hero-2 {
+  padding-bottom: 48px !important;
+  padding-top: 48px !important;
+}
+.col-lg-6 .para-space {
+  line-height: 20px;
+}
+/* hero section 2 */
+
+/* card section start*/
+.container-card{
+    height: 230px;
+}
+
+.col .card-body-2 {
+  background-color: #FFFF;
+  padding: 30px;
+  
+}
+.container-card .card-space {
+  padding: 65px;
+}
+h6 .image-card-vector{
+     width: 14px; 
 }
