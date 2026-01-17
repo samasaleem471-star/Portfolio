@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap.css" />
   </head>
   <body>
+    <!-- navabar section start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <img src="Images/Logo (1).svg" alt="Logo" />
@@ -63,10 +64,11 @@
         </div>
       </div>
     </nav>
+    <!-- navabar section start -->
 
     <!-- hero section start  -->
-    <div class="container-hero">
-      <div class="container-fluid px-4 py-5">
+    <div class="container px-4 py-5">
+      <div class="container-hero container-fluid px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-12 col-lg-6">
             <img
@@ -103,18 +105,18 @@
 
     <!-- Gallery section start -->
 
-    <div class="container">
+    <div class="container px-5 py-4">
       <h5>My Skills</h5>
-      <h2>My Expertise</h2>
+      <h2 class="heading pb-5">My Expertise</h2>
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
         <div class="col">
-          <div class="card h-100">
+          <div class="cards h-100">
             <img
               src="./Images/gallery 1.svg"
               class="card-img-top w-25"
               alt="Strategy & Direction"
             />
-            <div class="card-body">
+            <div class="card-body p-4">
               <h5 class="card-title">Strategy & Direction</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -124,13 +126,13 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="cards h-100">
             <img
               src="./Images/gallery 2.svg"
               class="card-img-top w-25"
               alt="Branding & Logo"
             />
-            <div class="card-body">
+            <div class="card-body p-4">
               <h5 class="card-title">Branding & Logo</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -140,13 +142,13 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="cards h-100">
             <img
               src="./Images/gallery 3.svg"
               class="card-img-top w-25"
               alt="UI & UX Design"
             />
-            <div class="card-body">
+            <div class="card-body p-4">
               <h5 class="card-title">UI & UX Design</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -156,13 +158,13 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="cards h-100">
             <img
               src="./Images/gallery 2.svg"
               class="card-img-top w-25"
               alt="Webflow Development"
             />
-            <div class="card-body">
+            <div class="card-body p-4">
               <h5 class="card-title">Webflow Development</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -177,7 +179,7 @@
     <!-- Gallery section end  -->
 
     <!-- hero section 2 start -->
-    <div class="container-hero-2">
+    <div class="container">
       <div class="container-fluid px-4 py-5">
         <div class="row align-items-center g-6 py-5">
           <div class="col-10 col-sm-12 col-lg-6">
@@ -190,12 +192,12 @@
               loading="lazy"
             />
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 gx-5">
             <p>About</p>
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
               About Me
             </h1>
-            <p class="para-space justify-content-between">
+            <p class="para mb-4 justify-content-between">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
               varius faucibus massa sollicitudin amet augue. Nibh metus a semper
               purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
@@ -214,80 +216,85 @@
 
     <!-- cart section -->
 
-    <div class="container-card">
-      <h2 class="text-center pb-3 fw-bold">My Projects</h2>
-      <div class="card-space row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card-white shadow border-0 rounded">
-            <img
-              src="./Images/image 1.png"
-              class="card-img-top rounded-top-2"
-              alt="Ahuse"
-            />
-            <div class="card-body-2 rounded-bottom-1">
-              <h5 class="card-title mb-4">Ahuse</h5>
-              <p class="card-text mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros.
-              </p>
+    <div class="container">
+      <div class="container-card h-100">
+        <h2 class="text-center pb-3 fw-bold">My Projects</h2>
+        <div class="card-space row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card shadow border-0 rounded">
+              <img
+                src="./Images/image 1.png"
+                class="card-img-top rounded-top-2"
+                alt="Ahuse"
+              />
+              <div class="card-body p-3 p-2 rounded-bottom-1">
+                <h5 class="card-title mb-4">Ahuse</h5>
+                <p class="card-text mb-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
 
-              <h6 class="border-bottom pb-2 border-primary d-inline-block">
-                View In Dribble
-                <img
-                  src="./Images/Vector.png"
-                  alt="Vector"
-                  class="image-card-vector align-middle ms-2"
-                />
-              </h6>
+                <h6 class="border-bottom pb-2 border-primary d-inline-block">
+                  View In Dribble
+                  <img
+                    src="./Images/Vector.png"
+                    alt="Vector"
+                    class="image-card-vector align-middle ms-2"
+                    style="width: 14px"
+                  />
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card-white shadow border-0 rounded">
-            <img
-              src="./Images/image 2.png"
-              class="card-img-top rounded-top-1"
-              alt="App Dashboard"
-            />
-            <div class="card-body-2 rounded-bottom-2">
-              <h5 class="card-title mb-4">App Dashboard</h5>
-              <p class="card-text mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros.
-              </p>
+          <div class="col">
+            <div class="card shadow border-0 rounded">
+              <img
+                src="./Images/image 2.png"
+                class="card-img-top rounded-top-1"
+                alt="App Dashboard"
+              />
+              <div class="card-body p-3 rounded-bottom-2">
+                <h5 class="card-title mb-4">App Dashboard</h5>
+                <p class="card-text mb-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
 
-              <h6 class="border-bottom pb-2 border-primary d-inline-block">
-                View In Dribble
-                <img
-                  src="./Images/Vector.png"
-                  alt="Vector"
-                  class="image-card-vector align-middle ms-2"
-                />
-              </h6>
+                <h6 class="border-bottom pb-2 border-primary d-inline-block">
+                  View In Dribble
+                  <img
+                    src="./Images/Vector.png"
+                    alt="Vector"
+                    class="image-card-vector align-middle ms-2"
+                    style="width: 14px"
+                  />
+                </h6>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card-white shadow border-0 rounded">
-            <img
-              src="./Images/image 3.png"
-              class="card-img-top rounded-top-1"
-              alt="Easy Rent"
-            />
-            <div class="card-body-2 rounded-bottom-2">
-              <h5 class="card-title mb-4">Easy Rent</h5>
-              <p class="card-text mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros.
-              </p>
-              <h6 class="border-bottom pb-2 border-primary d-inline-block">
-                View In Dribble
-                <img
-                  src="./Images/Vector.png"
-                  alt="Vector"
-                  class="image-card-vector align-middle ms-2"
-                />
-              </h6>
+          <div class="col">
+            <div class="card shadow border-0 rounded">
+              <img
+                src="./Images/image 3.png"
+                class="card-img-top rounded-top-1"
+                alt="Easy Rent"
+              />
+              <div class="card-body p-3 rounded-bottom-2">
+                <h5 class="card-title mb-4">Easy Rent</h5>
+                <p class="card-text mb-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros.
+                </p>
+                <h6 class="border-bottom pb-2 border-primary d-inline-block">
+                  View In Dribble
+                  <img
+                    src="./Images/Vector.png"
+                    alt="Vector"
+                    class="image-card-vector align-middle ms-2"
+                    style="width: 14px"
+                  />
+                </h6>
+              </div>
             </div>
           </div>
         </div>
@@ -295,7 +302,233 @@
     </div>
     <!-- cart section -->
 
-     
+    <!-- feedback section start  -->
+    <div class="container">
+      <div class="container-feedback px-5 py-5">
+        <div class="feedback-headings">
+          <p>Clients Feedback</p>
+          <h1 class="pb-5">Customer testimonials</h1>
+        </div>
+        <div class="main-card-feedback d-flex column-gap-4">
+          <div class="card-feedback" style="width: 27rem">
+            <div class="card-body-feedback rounded-1 p-4">
+              <img src="./images/Stars.png" alt="Stars" class="w-25 mb-4" />
+              <p class="card-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra.
+              </p>
+              <img
+                src="./Images/Avatar 1.svg"
+                alt="Avatar"
+                style="width: 200px"
+              />
+            </div>
+          </div>
+          <div class="card-feedback" style="width: 27rem">
+            <div class="card-body-feedback rounded-1 p-4">
+              <img src="./images/Stars.png" alt="Stars" class="w-25 mb-4" />
+              <p class="card-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra.
+              </p>
+              <img
+                src="./Images/Avatar (2).svg"
+                alt="avatar"
+                style="width: 200px"
+              />
+            </div>
+          </div>
+          <div class="card-feedback" style="width: 27rem">
+            <div class="card-body-feedback rounded-1 p-4">
+              <img src="./images/Stars.png" alt="Stars" class="w-25 mb-4" />
+              <p class="card-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra.
+              </p>
+              <img
+                src="./Images/Avatar 3.svg"
+                alt="avatar"
+                style="width: 200px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- feedback section end  -->
+    <!-- form section start  -->
+    <div class="container">
+      <form class="px-5 py-5">
+        <div class="form-headings text-center">
+          <p>Get In Touch</p>
+          <h1 class="mb-4">Contact me</h1>
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- 4 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example1">First name</label>
+              <input type="text" id="form6Example1" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example2">Last name</label>
+
+              <input type="text" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example1">First name</label>
+              <input type="text" id="form6Example1" class="form-control" />
+            </div>
+          </div>
+          <div class="col">
+            <div data-mdb-input-init class="form-outline">
+              <label class="form-label" for="form6Example2">Last name</label>
+
+              <input type="text" id="form6Example2" class="form-control" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col--12 mb-4">
+          <label for="country" class="form-label">Choose a topic</label>
+          <select
+            class="form-select"
+            id="country"
+            required=""
+            fdprocessedid="c758t"
+          >
+            <option value="">Select one...</option>
+          </select>
+          <div class="invalid-feedback">Please select a valid country.</div>
+        </div>
+
+        <!-- Message input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <label class="form-label" for="form6Example7"> Message</label>
+
+          <textarea
+            class="form-control"
+            id="form6Example7"
+            rows="4"
+            placeholder="Type your message..."
+          ></textarea>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-start mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form6Example8"
+            checked
+          />
+          <label class="form-check-label" for="form6Example8">
+            I accept the terms
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <div class="form-button d-flex justify-content-center">
+          <button
+            data-mdb-ripple-init
+            type="button"
+            class="btn btn-primary mb-4"
+          >
+            Place order
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- form section end  -->
+
+    <!-- footer start -->
+    <!-- footer first part  -->
+
+    <div class="container">
+      <div class="container-footer-bg">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4"
+        >
+          <div>
+            <img src="./images/Logo (1).svg" alt="LOGO" />
+          </div>
+          <ul class="nav col-md-4 justify-content-center">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+          </ul>
+          <div class="icons d-flex column-gap-4">
+            <div class="fb">
+              <img src="./Images/facebook.png" alt="Facebook" />
+            </div>
+            <div class="ig">
+              <img src="./images/instagram.png" alt="Instagram" />
+            </div>
+            <div class="twtr">
+              <img src="./images/twitter.png" alt="Twitter" />
+            </div>
+            <div class="link">
+              <img src="./images/linkedin.png" alt="Linked In " />
+            </div>
+          </div>
+        </footer>
+        <!-- footer first part  -->
+
+        <!-- footer second part  -->
+        <footer
+          class="footer-2 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top pb-5 pt-4"
+        >
+          <h6>Made with 💖 by Airdokan</h6>
+
+          <ul class="nav col-md-4 justify-content-center text-black">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary"
+                >Terms of Service</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary"
+                >Cookies Settings</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <!-- footer second part  -->
+
+    <!-- footer end -->
 
     <script src="bootstrap.js"></script>
   </body>
